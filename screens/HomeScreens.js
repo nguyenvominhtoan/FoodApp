@@ -12,7 +12,7 @@ export default function homeScreens() {
     <SafeAreaView className="bg-white">
       <StatusBar barStyle="dark-content" />
       {/* Search Bar */}
-      <View className="flex-row items-center space-x-2 px-4 pb-2">
+      <View className="flex-row items-center space-x-2 px-4 pb-2 pt-0">
         <View className="flex-row flex-1 items-center p-3 rounded-full border border-gray-300">
           <Icon.Search height="25" width="25" stroke="gray" />
           <TextInput
